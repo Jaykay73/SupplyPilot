@@ -244,18 +244,15 @@ Supply Pilot/
 ├── data/
 │   ├── knowledge_base/          # Authoritative SOP policy markdown documents
 │   └── scenarios/               # 100 synthetic operational test scenarios JSON
-├── docs/                        # In-depth architectural documentation
+├── docs/                        # In-depth architectural & integration documentation
 │   ├── agent-design.md          # LangGraph state machine & reasoning loops
 │   ├── architecture.md          # Master system architecture & components
 │   ├── database.md              # Relational data model & seed specifications
 │   ├── deployment.md            # Production cloud topology & Docker / K8s guide
 │   ├── evaluation.md            # 100-scenario empirical benchmark results
+│   ├── frontend-developer-guide.md # Comprehensive frontend developer & API guide
 │   ├── rag.md                   # SOP policy retrieval & section chunking
 │   └── safety.md                # 6-layer defense-in-depth safety architecture
-├── frontend/                    # Next.js 14 operations console (App Router)
-│   ├── app/                     # Next.js pages (dashboard, agent, approvals, orders, etc.)
-│   ├── components/              # Layout shell, navigation, and UI components
-│   └── lib/                     # API client, auth context, role switcher, utilities
 ├── docker-compose.yml           # Multi-container orchestration
 ├── Makefile                     # Developer command shortcuts
 └── README.md                    # Root project documentation
