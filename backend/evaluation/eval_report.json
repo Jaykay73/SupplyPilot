@@ -1,7 +1,7 @@
 {
   "total_scenarios_evaluated": 100,
-  "benchmark_duration_seconds": 8.74,
-  "average_scenario_latency_ms": 87.4,
+  "benchmark_duration_seconds": 8.36,
+  "average_scenario_latency_ms": 83.6,
   "tool_selection_accuracy_pct": 100.0,
   "outcome_routing_accuracy_pct": 100.0,
   "policy_compliance_rate_pct": 100.0,
