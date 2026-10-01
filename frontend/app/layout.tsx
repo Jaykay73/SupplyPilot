@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
   title: "SupplyPilot — AI Operations Platform",
@@ -14,8 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-[#090d16] text-slate-100 antialiased selection:bg-emerald-500 selection:text-white">
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
 }
+
