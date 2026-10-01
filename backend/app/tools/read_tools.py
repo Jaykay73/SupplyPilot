@@ -100,3 +100,13 @@ async def calculate_material_shortage_tool(session: AsyncSession, order_id: str)
     if not report:
         return {"error": "Information unavailable", "detail": f"Order {order_id} not found or has no items."}
     return report.model_dump()
+
+
+def search_company_policies_tool(query: str, limit: int = 3) -> List[Dict[str, Any]]:
+    """Searches corporate SOPs, procurement thresholds, supplier qualification, and production policies."""
+    from backend.app.services.rag_service import RAGService
+    rag = RAGService.get_instance()
+    results = rag.search_policies(query, limit=limit)
+    if not results:
+        return [{"citation": "No matching policy found", "content": "Information unavailable in policy database."}]
+    return results
