@@ -1,5 +1,5 @@
 from contextlib import asynccontextmanager
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 from backend.app.core.config import settings
 from backend.app.core.logging import logger
@@ -45,18 +45,26 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount Routers
-app.include_router(auth_router)
-app.include_router(chat_router)
-app.include_router(orders_router)
-app.include_router(inventory_router)
-app.include_router(suppliers_router)
-app.include_router(production_router)
-app.include_router(approvals_router)
-app.include_router(runs_router)
-app.include_router(events_router)
-app.include_router(audit_router)
-app.include_router(dashboard_router)
+# Mount Routers under both /api/v1 (for frontend client) and root (for backward compatibility)
+api_v1_router = APIRouter(prefix="/api/v1")
+
+for r in [
+    auth_router,
+    chat_router,
+    orders_router,
+    inventory_router,
+    suppliers_router,
+    production_router,
+    approvals_router,
+    runs_router,
+    events_router,
+    audit_router,
+    dashboard_router,
+]:
+    api_v1_router.include_router(r)
+    app.include_router(r)
+
+app.include_router(api_v1_router)
 
 
 @app.get("/health", tags=["System"])
