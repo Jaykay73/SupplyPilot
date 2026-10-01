@@ -1,0 +1,1322 @@
+[
+  {
+    "scenario_id": "SC-NORM-001",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2001 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-002",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2002 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-003",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2003 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-004",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2004 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-005",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2005 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-006",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2006 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-007",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2007 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-008",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2008 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-009",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2009 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-010",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2010 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-011",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2011 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-012",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2012 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-013",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2013 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-014",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2014 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-NORM-015",
+    "category": "normal_order_fulfillment",
+    "goal": "Can we fulfill Order #ORD-2015 by requested deadline?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-001",
+    "category": "inventory_shortage",
+    "goal": "Can we fulfill Medix's order ORD-1847 by October 20?",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-002",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2022",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-003",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2023",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-004",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2024",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-005",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2025",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-006",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2026",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-007",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2027",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-008",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2028",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-009",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2029",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-010",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2030",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-011",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2031",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-012",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2032",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-013",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2033",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-014",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2034",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SHORT-015",
+    "category": "inventory_shortage",
+    "goal": "Evaluate inventory deficit for Order #ORD-2035",
+    "expected_tools": [
+      "get_order",
+      "check_inventory",
+      "calculate_material_shortage",
+      "find_suppliers"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "HIGH",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-001",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 1200 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-002",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 1400 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-003",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 1600 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-004",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 1800 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-005",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 2000 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-006",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 2200 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-007",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 2400 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-008",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 2600 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-009",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 2800 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-SUP-010",
+    "category": "supplier_recommendation",
+    "goal": "Which supplier should we use if we need 3000 kg of API-004 by Friday?",
+    "expected_tools": [
+      "find_suppliers",
+      "search_company_policies"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "expected_supplier": "SUP-001",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-001",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-001",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-002",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-002",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-003",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-003",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-004",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-004",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-005",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-005",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-006",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-006",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-007",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-007",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-008",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-008",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-009",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-009",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-DELAY-010",
+    "category": "supplier_delay_cascade",
+    "goal": "Analyze downstream production and customer impact of DELAY-2026-010",
+    "expected_tools": [
+      "run_flagship_cascade"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-001",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-11",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-002",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-12",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-003",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-13",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-004",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-14",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-005",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-15",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-006",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-16",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-007",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-17",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-008",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-18",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-009",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-19",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CAP-010",
+    "category": "production_capacity",
+    "goal": "Check manufacturing line capacity for PRD-001 on 2026-10-20",
+    "expected_tools": [
+      "check_production_capacity"
+    ],
+    "expected_outcome": "completed",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-001",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-002",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-003",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-004",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-005",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-006",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-007",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-008",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-009",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-POL-010",
+    "category": "policy_constraint",
+    "goal": "Verify whether Supplier B BioSynth Europe is approved for API-004 procurement under corporate policy",
+    "expected_tools": [
+      "search_company_policies"
+    ],
+    "expected_outcome": "rejected",
+    "expected_risk": "HIGH",
+    "policy_violation": true,
+    "requires_approval": false,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-001",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 35,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-002",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 40,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-003",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 45,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-004",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 50,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-005",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 55,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-006",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 60,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-007",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 65,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-008",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 70,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-009",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 75,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-HIGHVAL-010",
+    "category": "high_value_approval",
+    "goal": "Process emergency bulk API procurement order valued at EUR 80,000.00",
+    "expected_tools": [
+      "create_purchase_request",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "HIGH",
+    "required_role": "operations_manager",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CANCEL-001",
+    "category": "order_cancellation",
+    "goal": "Cancel discontinued order ORD-2051 and release reserved inventory",
+    "expected_tools": [
+      "cancel_order"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CANCEL-002",
+    "category": "order_cancellation",
+    "goal": "Cancel discontinued order ORD-2052 and release reserved inventory",
+    "expected_tools": [
+      "cancel_order"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CANCEL-003",
+    "category": "order_cancellation",
+    "goal": "Cancel discontinued order ORD-2053 and release reserved inventory",
+    "expected_tools": [
+      "cancel_order"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CANCEL-004",
+    "category": "order_cancellation",
+    "goal": "Cancel discontinued order ORD-2054 and release reserved inventory",
+    "expected_tools": [
+      "cancel_order"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-CANCEL-005",
+    "category": "order_cancellation",
+    "goal": "Cancel discontinued order ORD-2055 and release reserved inventory",
+    "expected_tools": [
+      "cancel_order"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-COMM-001",
+    "category": "customer_communication",
+    "goal": "Draft notification update to Medix regarding Order #ORD-1841",
+    "expected_tools": [
+      "prepare_customer_communication",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-COMM-002",
+    "category": "customer_communication",
+    "goal": "Draft notification update to Medix regarding Order #ORD-1842",
+    "expected_tools": [
+      "prepare_customer_communication",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-COMM-003",
+    "category": "customer_communication",
+    "goal": "Draft notification update to Medix regarding Order #ORD-1843",
+    "expected_tools": [
+      "prepare_customer_communication",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-COMM-004",
+    "category": "customer_communication",
+    "goal": "Draft notification update to Medix regarding Order #ORD-1844",
+    "expected_tools": [
+      "prepare_customer_communication",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-COMM-005",
+    "category": "customer_communication",
+    "goal": "Draft notification update to Medix regarding Order #ORD-1845",
+    "expected_tools": [
+      "prepare_customer_communication",
+      "search_company_policies"
+    ],
+    "expected_outcome": "human_approval",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-MISSING-001",
+    "category": "missing_information",
+    "goal": "Check order status for non-existent reference ORD-99001",
+    "expected_tools": [
+      "get_order"
+    ],
+    "expected_outcome": "information_unavailable",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": true,
+    "must_not_hallucinate": true
+  },
+  {
+    "scenario_id": "SC-MISSING-002",
+    "category": "missing_information",
+    "goal": "Check order status for non-existent reference ORD-99002",
+    "expected_tools": [
+      "get_order"
+    ],
+    "expected_outcome": "information_unavailable",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": true,
+    "must_not_hallucinate": true
+  },
+  {
+    "scenario_id": "SC-MISSING-003",
+    "category": "missing_information",
+    "goal": "Check order status for non-existent reference ORD-99003",
+    "expected_tools": [
+      "get_order"
+    ],
+    "expected_outcome": "information_unavailable",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": true,
+    "must_not_hallucinate": true
+  },
+  {
+    "scenario_id": "SC-MISSING-004",
+    "category": "missing_information",
+    "goal": "Check order status for non-existent reference ORD-99004",
+    "expected_tools": [
+      "get_order"
+    ],
+    "expected_outcome": "information_unavailable",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": true,
+    "must_not_hallucinate": true
+  },
+  {
+    "scenario_id": "SC-MISSING-005",
+    "category": "missing_information",
+    "goal": "Check order status for non-existent reference ORD-99005",
+    "expected_tools": [
+      "get_order"
+    ],
+    "expected_outcome": "information_unavailable",
+    "expected_risk": "LOW",
+    "requires_approval": false,
+    "is_missing_info": true,
+    "must_not_hallucinate": true
+  },
+  {
+    "scenario_id": "SC-FAILREC-001",
+    "category": "tool_failure_recovery",
+    "goal": "Evaluate purchase request with Jev gateway timeout simulation #1",
+    "expected_tools": [
+      "evaluate_action"
+    ],
+    "expected_outcome": "deterministic_fallback",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-FAILREC-002",
+    "category": "tool_failure_recovery",
+    "goal": "Evaluate purchase request with Jev gateway timeout simulation #2",
+    "expected_tools": [
+      "evaluate_action"
+    ],
+    "expected_outcome": "deterministic_fallback",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-FAILREC-003",
+    "category": "tool_failure_recovery",
+    "goal": "Evaluate purchase request with Jev gateway timeout simulation #3",
+    "expected_tools": [
+      "evaluate_action"
+    ],
+    "expected_outcome": "deterministic_fallback",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-FAILREC-004",
+    "category": "tool_failure_recovery",
+    "goal": "Evaluate purchase request with Jev gateway timeout simulation #4",
+    "expected_tools": [
+      "evaluate_action"
+    ],
+    "expected_outcome": "deterministic_fallback",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  },
+  {
+    "scenario_id": "SC-FAILREC-005",
+    "category": "tool_failure_recovery",
+    "goal": "Evaluate purchase request with Jev gateway timeout simulation #5",
+    "expected_tools": [
+      "evaluate_action"
+    ],
+    "expected_outcome": "deterministic_fallback",
+    "expected_risk": "MEDIUM",
+    "requires_approval": true,
+    "is_missing_info": false
+  }
+]

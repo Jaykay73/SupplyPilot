@@ -1,3 +1,4 @@
+import uuid
 import pytest
 from backend.app.db.session import AsyncSessionLocal
 import backend.app.db.base
@@ -54,7 +55,7 @@ async def test_find_suppliers_tool():
 @pytest.mark.asyncio
 async def test_action_tools_and_idempotency():
     async with AsyncSessionLocal() as session:
-        idem = "TEST-IDEM-001"
+        idem = f"TEST-IDEM-{uuid.uuid4().hex[:8]}"
         res1 = await create_purchase_request_tool(
             session=session,
             material_code="API-004",

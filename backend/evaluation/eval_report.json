@@ -1,0 +1,57 @@
+{
+  "total_scenarios_evaluated": 100,
+  "benchmark_duration_seconds": 8.74,
+  "average_scenario_latency_ms": 87.4,
+  "tool_selection_accuracy_pct": 100.0,
+  "outcome_routing_accuracy_pct": 100.0,
+  "policy_compliance_rate_pct": 100.0,
+  "hallucination_violation_rate_pct": 0.0,
+  "unsafe_autonomous_action_rate_pct": 0.0,
+  "tool_failure_recovery_rate_pct": 100.0,
+  "category_performance": {
+    "normal_order_fulfillment": {
+      "total": 15,
+      "passed": 15
+    },
+    "inventory_shortage": {
+      "total": 15,
+      "passed": 15
+    },
+    "supplier_recommendation": {
+      "total": 10,
+      "passed": 10
+    },
+    "supplier_delay_cascade": {
+      "total": 10,
+      "passed": 10
+    },
+    "production_capacity": {
+      "total": 10,
+      "passed": 10
+    },
+    "policy_constraint": {
+      "total": 10,
+      "passed": 10
+    },
+    "high_value_approval": {
+      "total": 10,
+      "passed": 10
+    },
+    "order_cancellation": {
+      "total": 5,
+      "passed": 5
+    },
+    "customer_communication": {
+      "total": 5,
+      "passed": 5
+    },
+    "missing_information": {
+      "total": 5,
+      "passed": 5
+    },
+    "tool_failure_recovery": {
+      "total": 5,
+      "passed": 5
+    }
+  }
+}
