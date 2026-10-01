@@ -31,8 +31,23 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="SupplyPilot Operations API",
-    description="Autonomous AI operations platform connecting inventory, suppliers, production, and policy governance.",
-    version="0.1.0",
+    description="""
+### SupplyPilot — Connected Operational Intelligence & Workflow Automation
+
+**PharmaPulse Synthetics Operations Platform** connecting inventory, orders, suppliers, production schedules, and corporate procurement policies with deterministic rule enforcement and human-in-the-loop approvals.
+
+#### Demo Personas (Password: `demo123`):
+* **Procurement Officer:** `procurement@demo.local` (Autonomous <= €5,000; Approvals up to €25,000)
+* **Operations Manager:** `manager@demo.local` (Unrestricted financial approval > €25,000)
+* **Production Planner:** `planner@demo.local` (Master production schedule and line capacity)
+* **Administrator:** `admin@demo.local` (Full system governance and audit logs)
+
+*Note: In demo mode, endpoints default to the Procurement Officer persona if no Bearer token is passed, or you can click the green **Authorize** button above to authenticate as any persona.*
+""",
+    version="1.0.0",
+    docs_url="/docs",
+    redoc_url="/redoc",
+    swagger_ui_parameters={"persistAuthorization": True},
     lifespan=lifespan,
 )
 

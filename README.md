@@ -135,11 +135,10 @@ SupplyPilot features an automated benchmark runner (`backend/evaluation/runner.p
 
 ---
 
-## 5. Quickstart & Local Installation
+## 5. Quickstart & Local API Testing (FastAPI Swagger UI)
 
 ### Prerequisites
 - Python 3.11+
-- Node.js 18+ and `npm`
 
 ### 1. Backend Setup & Seed
 ```bash
@@ -158,26 +157,21 @@ python -m pytest -v
 # Run the 100-scenario evaluation benchmark
 python -m backend.evaluation.runner
 
-# Launch FastAPI development server (runs on port 8000)
+# Launch FastAPI ASGI server (port 8000)
 python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 2. Frontend Setup
-```bash
-# In a separate terminal, enter frontend directory
-cd frontend
+### 2. Interactive API Testing in Swagger UI
+Open **`http://localhost:8000/docs`** in your browser.
 
-# Install Node dependencies
-npm install
-
-# Run production build verification
-npm run build
-
-# Start Next.js development server (runs on port 3000)
-npm run dev
-```
-
-Visit **`http://localhost:3000`** in your browser.
+- **Swagger UI Interactive Exploration:** Every endpoint has full parameter definitions, schema models, and "Try it out" capabilities.
+- **Authentication:** Click the green **Authorize** button at the top right to log in as any seeded persona:
+  - `procurement@demo.local` / `demo123`
+  - `manager@demo.local` / `demo123`
+  - `planner@demo.local` / `demo123`
+  - `admin@demo.local` / `demo123`
+  *(Note: In demo mode, unauthenticated calls automatically default to the Procurement Officer persona).*
+- **Alternative ReDoc UI:** Available at **`http://localhost:8000/redoc`**.
 
 ---
 
@@ -192,32 +186,38 @@ All accounts use password **`demo123`**:
 | **Production Planner** | `planner@demo.local` | Master production scheduling, line capacity, and batch rescheduling. |
 | **System Administrator** | `admin@demo.local` | Full platform administration, policy configurations, and audit telemetry. |
 
-*The operations console includes a 1-click role switcher in the sidebar and login page for instant role testing.*
-
 ---
 
-## 7. Interactive Walkthrough Script
+## 7. Interactive Walkthrough in Swagger Docs
 
-1. **Sign In:** Go to `http://localhost:3000/login` and click **"Procurement Officer"**.
-2. **Operations Dashboard:**
-   - Observe executive KPIs: 124 Orders, 20 Catalog Materials, Active Cleanroom lines.
-   - Click the amber button: **"Simulate Flagship Delay"**.
-   - Notice the live cascade visualizer showing BioSynth's delay propagating through Batch `BATCH-2026-101` to Medix Order `ORD-1847`.
-3. **Copilot Operations Chat (`/agent`):**
-   - Click preset chip: *"Can we fulfill Medix's order ORD-1847 by October 20?"*
-   - Watch the agent's multi-step plan execute in real time.
-   - On the right panel, inspect the **Execution Trace Inspector**:
-     - **Plan:** See all 8 discrete reasoning steps.
-     - **Evidence:** View raw database evidence (700 kg shortage, Apex Pharma quote).
-     - **Policies:** Read retrieved SOP citations (`SOP-PRC-001 Section 2.1` and `SOP-PRC-002`).
-     - **Jev AI:** Check the probabilistic risk assessment (94% confidence, 28/100 risk).
-     - **Rules Gate:** Verify that deterministic rule checks marked the €8,400 action as `PENDING_APPROVAL`.
-4. **Approvals Center (`/approvals`):**
-   - View Requisition `#PR-...` for €8,400.00 from Apex Pharma Synthetics.
-   - Click **"Authorize Action"**. The status immediately transitions to `APPROVED`, generating an immutable audit record.
-   - Switch role to a lower tier and notice that requisitions > €25,000 remain securely locked.
-5. **Audit Trail (`/audit`):**
-   - Review the complete cryptographic log of the simulation, agent proposal, and user approval.
+1. **Check System Health:**
+   - Execute `GET /health` to confirm database connectivity, environment mode, and configuration.
+2. **Execute Flagship Delay Cascade:**
+   - Execute `POST /api/v1/events/simulate-delay`.
+   - Observe the multi-tier impact: BioSynth's 5-day delay on API-004 propagates to Batch `BATCH-2026-101` and Medix Order `ORD-1847`.
+3. **Dispatch Inquiries to the AI Copilot:**
+   - Execute `POST /api/v1/chat/messages` with payload:
+     ```json
+     {
+       "message": "Can we fulfill Medix's order ORD-1847 by October 20?"
+     }
+     ```
+   - Review the detailed response: multi-step plan, database evidence (700 kg shortage), RAG policy citations, Jev risk score, and the generated Purchase Request for €8,400 from Apex Pharma.
+4. **Inspect the Approvals Queue:**
+   - Execute `GET /api/v1/approvals?status=PENDING`.
+   - View the pending requisition ID (`approval_id`).
+5. **Authorize the Action (Human-in-the-Loop Gate):**
+   - Execute `POST /api/v1/approvals/{approval_id}/decide`:
+     ```json
+     {
+       "decision": "APPROVED",
+       "rejection_reason": null
+     }
+     ```
+   - If logged in as Procurement Officer, the €8,400 requisition is authorized successfully.
+   - If attempting an unauthorized requisition > €25,000, verify that the Rules Engine strictly returns `403 Forbidden`.
+6. **Audit Trail Verification:**
+   - Execute `GET /api/v1/audit` to view the cryptographic log of the entire incident resolution.
 
 ---
 

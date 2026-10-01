@@ -8,7 +8,7 @@ from backend.app.core.security import decode_access_token
 from backend.app.db.session import get_db
 from backend.app.models.users import User, Role
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login", auto_error=False)
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login", auto_error=False)
 
 
 async def get_current_user(
