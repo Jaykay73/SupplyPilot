@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 from sqlalchemy.future import select
 from backend.app.core.config import settings
 from backend.app.core.security import get_password_hash
+import backend.app.db.base  # Ensures ALL models are registered on Base.metadata
 from backend.app.db.session import AsyncSessionLocal, engine, Base
 from backend.app.models.users import User, Role
 from backend.app.models.catalogue import Product, RawMaterial, ProductMaterial

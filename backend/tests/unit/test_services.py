@@ -36,7 +36,10 @@ async def test_bom_shortage_calculation_medix():
         report = await BOMService.calculate_material_shortage(session, "ORD-1847")
         assert report is not None
         assert report.requested_quantity == 5000
-        assert report.production_required_units == 1900
+        assert report.production_required_units == 5000
+        assert report.has_shortage is True
+        assert report.primary_shortage_material == "API-004"
+        assert report.primary_shortage_amount == 700.0
 
 
 @pytest.mark.asyncio

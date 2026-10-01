@@ -33,8 +33,14 @@ class BOMService:
         fg_inv = fg_inv_res.scalar_one_or_none()
         fg_available = fg_inv.available if fg_inv else 0.0
 
-        # Calculate production requirement
-        production_required = max(0, requested_qty - int(fg_available))
+        # Calculate production requirement based on standard batch sizing
+        net_deficit = max(0, requested_qty - int(fg_available))
+        if net_deficit > 0:
+            # In pharmaceutical manufacturing, production runs in discrete standard batch sizes
+            batches_needed = (net_deficit + product.standard_batch_size - 1) // product.standard_batch_size
+            production_required = batches_needed * product.standard_batch_size
+        else:
+            production_required = 0
 
         # 2. Retrieve Bill of Materials
         bom_res = await session.execute(
