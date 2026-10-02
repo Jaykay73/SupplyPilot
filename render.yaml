@@ -21,3 +21,5 @@ services:
         value: "false"
       - key: JWT_SECRET
         generateValue: true
+      - key: DATABASE_URL
+        sync: false

@@ -24,6 +24,18 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "sqlite+aiosqlite:///./supplypilot.db"
 
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def assemble_database_url(cls, v: Optional[str]) -> str:
+        if not v:
+            return "sqlite+aiosqlite:///./supplypilot.db"
+        # Supabase/Heroku provide postgres:// or postgresql://
+        if v.startswith("postgres://"):
+            return v.replace("postgres://", "postgresql+psycopg://", 1)
+        if v.startswith("postgresql://") and not v.startswith("postgresql+"):
+            return v.replace("postgresql://", "postgresql+psycopg://", 1)
+        return v
+
     # Vector Store (Qdrant)
     QDRANT_URL: Optional[str] = None
     QDRANT_API_KEY: Optional[str] = None
