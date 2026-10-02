@@ -25,6 +25,22 @@ async def lifespan(app: FastAPI):
     logger.info(f"Starting SupplyPilot Backend [{settings.APP_ENV}] on port {settings.API_PORT}")
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+
+    # Automatically seed initial dataset if running fresh (e.g. SQLite or fresh cloud DB)
+    try:
+        from backend.app.db.session import AsyncSessionLocal
+        from backend.app.models.users import User
+        from sqlalchemy.future import select
+        async with AsyncSessionLocal() as session:
+            result = await session.execute(select(User).limit(1))
+            if result.scalars().first() is None:
+                logger.info("Database is empty. Running initial database seed...")
+                from backend.app.seed.seeder import seed_database
+                await seed_database()
+                logger.info("Initial database seed completed successfully.")
+    except Exception as e:
+        logger.error(f"Error checking/running initial database seed: {e}")
+
     yield
     logger.info("Shutting down SupplyPilot Backend")
 
